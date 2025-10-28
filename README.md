@@ -20,6 +20,6 @@ The project implements a UART receiver (`uart_rx.v`) with three difficulty tiers
 | **Hard** | Early start re-check + early data sampling | 0% | `-5` recheck + `-3` data reloads |
 
 ## Simulation Instructions
-1. Open any version of `uart_rx.v` + `uart_rx_tb.v` in **EDA Playground** (Verilog 2001 / Icarus Verilog).
+1. Open any version(easy,medium,hard) of `uart_rx.v` + `uart_rx_tb.v` in **EDA Playground** (Verilog 2001(-wall -g2001) set this as compiler options / Icarus Verilog).
 2. Set top module = `uart_rx_tb`.
 3. Check “Open EPWave after run” to see waveforms.
