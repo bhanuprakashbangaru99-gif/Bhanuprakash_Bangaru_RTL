@@ -15,7 +15,7 @@ The project implements a UART receiver (`uart_rx.v`) with three difficulty tiers
 ## Difficulty Tiers
 | Version | Description | Pass Rate | Key Modification |
 |----------|--------------|------------|------------------|
-| **Easy** | Correct UART RX (mid-bit sampling) | 100% | `-2` reloads (ideal sampling) |
+| **Easy** | Correct UART RX (mid-bit sampling) | 60-80% | `-2` reloads (ideal sampling) |
 | **Medium** | Early data sampling (1 tick early) | 10–30% | `-3` reloads in data phase only |
 | **Hard** | Early start re-check + early data sampling | 0% | `-5` recheck + `-3` data reloads |
 
